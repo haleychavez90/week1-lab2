@@ -20,11 +20,11 @@ function fortuneTeller(name, age) {
 
   // Age
   if (age < 18) {
-    fortune += "will achieve something great in their studies.";
+    fortune += "will pass all your tests this year.";
   } else if (age >= 18 && age <= 30) {
-    fortune += "will soon find their dream job.";
+    fortune += "will buy your dream car.";
   } else {
-    fortune += "will experience financial success soon.";
+    fortune += "will meet and marry your soul mate.";
   }
 
   return fortune;
