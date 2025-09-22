@@ -3,19 +3,22 @@ function fortuneTeller(name, age) {
 
   // Name 
   if (name.length > 7) {
-    fortune += "will marry late in life. ";
+    fortune += "will marry late in life.";
   } else if (name.length < 5) {
-    fortune += "will marry within a year. ";
+    fortune += "will marry within a year.";
   } else {
-    fortune += "will encounter a once-in-a-lifetime opportunity. ";
+    fortune += "will encounter a once-in-a-lifetime opportunity.";
   }
 
+// Letter R
   if (name.charAt(0).toLowerCase() === 'r') {
-    fortune += "will be rich. ";
+    fortune += "will be rich.";
   }
 
+
+// Letter I
   if (name.toLowerCase().includes('i')) {
-    fortune += "will fall in love this week. ";
+    fortune += "will fall in love this week.";
   }
 
   // Age
@@ -37,6 +40,8 @@ document.getElementById("fortuneForm").addEventListener("submit", function(e) {
   const name = document.getElementById("name").value.trim();
   const age = parseInt(document.getElementById("age").value.trim(), 10);
 
+
+// Error Message
   if (!name || isNaN(age)) {
     alert("Please enter valid name and age.");
     return;

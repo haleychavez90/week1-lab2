@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: peachpuff;
+  background: rgb(116, 215, 215);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +48,7 @@ button {
   border-radius: 8px;
   color: white;
   font-size: 16px;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 button:hover {
